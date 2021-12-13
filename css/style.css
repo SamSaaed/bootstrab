@@ -2,11 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
-.main{
+
+.first{
     position: -webkit-sticky;
     position: sticky;
+    top: 0;
 }
-.main img{
+.main a img{
+    display: none;
+}
+.main h3{
     display: none;
 }
 .collapse ul{
@@ -20,6 +25,7 @@ margin-left: 70px;
 }
 .btn img{
     width: 20px;
+    
 }
 h1{
     text-align: center;
@@ -154,6 +160,7 @@ color: rgb(63, 63, 214);
     display: block;
     width: 250px;
     border-bottom: 1px solid rgb(201, 200, 189);
+    padding-top: 40px;
 
 }
 .about4 a{
@@ -170,16 +177,22 @@ color: rgb(63, 63, 214);
     grid-column: 2;
     display: block;
     border-bottom: 1px solid rgb(201, 200, 189);
+    padding-top: 40px;
+
+    border-left: 1px solid rgb(201, 200, 189); ;
+    border-right:  1px solid rgb(201, 200, 189);
 }
 .about5 a{
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 }
 .about5 a:hover{
     color: rgb(63, 63, 214);
 }
 .about5 p{
     font-size: 13px;
+    margin-left: 10px;
 }
 .about6{
     grid-column: 3;
@@ -203,8 +216,10 @@ color: rgb(63, 63, 214);
     display: block;
     width: 250px;
     border-bottom: 1px solid rgb(201, 200, 189);
-
+    padding-top: 50px;
 }
+
+
 .about7 a{
     text-decoration: none;
     color: black;
@@ -219,16 +234,21 @@ color: rgb(63, 63, 214);
     grid-column: 2;
     display: block;
     border-bottom: 1px solid rgb(201, 200, 189);
+    padding-top: 50px;
+    border-right:  1px solid rgb(201, 200, 189);
+    border-left:  1px solid rgb(201, 200, 189);
 }
 .about8 a{
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 }
 .about8 a:hover{
     color: rgb(63, 63, 214);
 }
 .about8 p{
     font-size: 13px;
+    margin-left: 10px;
 }
 .about9{
     grid-column: 1;
@@ -257,6 +277,8 @@ margin-right: 110px;
     border-bottom: 1px solid rgb(201, 200, 189);
     justify-content: center;
     display: flex;
+    border-left: 1px solid rgb(201, 200, 189);
+    border-right: 1px solid rgb(201, 200, 189);
 }
 .about10 a{
     text-decoration: none;
@@ -278,16 +300,44 @@ margin-right: 110px;
 .about10 a img{
     padding-top: 10px;
 }
+.about11{
+    grid-column: 3;
+    display: block;
+    border-bottom: 1px solid rgb(201, 200, 189);
+}
+.about11 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.about11 a:hover{
+  color:   rgb(63, 63, 214);
+}
+.about11 p{
+    font-size: 13px;
+    
+}
+.about11 .gray-dark{
+   
+    border-left:  1px solid rgb(201, 200, 189);
+}
+.about11 .gray-dark p{
+    margin-left: 10px;
+}
 /* Small devices (portrait tablets and large phones, 767px and down) */
 @media only screen and (max-width: 767px){
+    h4{
+        display: none;
+    }
  .main{
      width: 100%;
      display: block;
      justify-content: space-between;
      display: flex;
      background-color: rgb(73, 71, 71);
+     height: 50px;
  }
-    .main img{
+    .main a img{
         display: block;
         width: 30px;
         height: 30px;
@@ -299,7 +349,85 @@ margin-right: 110px;
 .main button{
     display: none;
 }
+.main h3{
+    display: block;
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+}
 h1{
     display: none;
 }
+.contain{
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
 }
+.contain .about{
+width: 100%;
+margin-left: 70px;margin-right: 0;border-left: 0;border-right: 0;
+    grid-row-start: 2;grid-row-end:span 2 ;grid-column-start: 1;
+    grid-column-end:-1 ;padding: 0;border-bottom: 1px solid  #eaeaea;cursor: pointer;box-sizing: border-box;
+    grid-gap: 1rem;
+}
+.about2{
+    
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+    text-align: left;height: 100%;position: relative;width: 300px;
+}
+.about2 a img{
+ position: relative;z-index: 2;width: 100px;float: right;
+}
+.about4{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+        justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+}
+.about5{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+        justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+        position: relative;text-align: left;margin: 0;width: 600px;
+}
+.about3{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+    text-align: left;height: 100%;position: relative;width: 300px;
+}
+.about3 a img{
+    position: relative;z-index: 2;width: 100px;float: right;
+}
+.about7{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+}
+.about8{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+    position: relative;text-align: left;margin: 0;width: 600px;   
+}
+.about6{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+    text-align: left;height: 100%;position: relative;width: 300px;
+}
+.about6 a img{
+    position: relative;z-index: 2;width: 100px;float: right;
+}
+.about9{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+}
+.about10{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);
+    text-align: left;height: 100%;position: relative;width: 400px;
+}
+.about10 a img{
+    position: relative;z-index: 2;width: 150px;float: right;
+}
+.about11{
+    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;
+    justify-content: left;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 80px;
+}
+}
+
