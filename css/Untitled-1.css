@@ -1,0 +1,15 @@
+
+    .container .row .col-6 {
+        border-bottom: 1px solid rgb(201, 200, 189);
+        padding-top: 15px;
+    }
+    .container .row .col-6  a {
+    text-decoration: none;
+    color: black;
+    }
+    .container .row .col-6  a:hover{
+        color: rgb(63, 63, 214);
+    }
+    .container .row .col-6  h1{
+        font-size: 18px;
+    }
