@@ -31,23 +31,29 @@ font-family:  Franklin,Arial,Helvetica,sans-serif;
    height: 36px;
    width: 50px;
 }
-.search img{
-    margin-left: 12px;
-    margin-top: 5px;
+.search img {
+    width: 30px;
+    height: 30px;
+margin-left: 8px;
+margin-top: 4px;
+
 }
 .btn img{
-    width: 20px;
-    
+    width: 25px; 
 }
-h1{
-    text-align: center;
-    font-family: Franklin,Arial,Helvetica,sans-serif;
-    padding-top: 60px;
+.bot button{
+    width: 117px;
+    height: 36px;
+    padding: 5px;
 }
+
 h4{
     text-align: center;
     border-bottom: 1px solid   rgb(102, 102, 101);
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:  rgb(143, 143, 136);
+    font-size: 19px;
 }
 .tit{
     padding-top: 60px;
@@ -103,17 +109,17 @@ font-size: 20px;
     position: relative;
       margin: auto;
 }
-.col-6 {
+.row{
     padding-top: 15px;
 }
-.col-6  a {
+.row  a {
 color: black;
 }
-.col-6  a:hover{
+.row  a:hover{
     color: rgb(63, 63, 214);
     text-decoration: none;
 }
-.col-6  h1{
+.row  h1{
     font-size: 18px;
     margin-right: 160px;
 }
@@ -145,13 +151,7 @@ color: black;
 ul li a:hover{
     color: rgb(63, 63, 214);
 }
-.col-sm a{
-    color: black;
-    font-size: 13px;
-}
- .col-sm a:hover{
-    color: rgb(63, 63, 214);
-}
+
 .row{
     border-bottom: 1px solid rgb(201, 200, 189);
 }
@@ -185,27 +185,35 @@ ul li a:hover{
     font-size: 13px;
     color: white;
     margin: 5px;
+    font-style: italic;
 }
 h1{
     display: none;
 }
-.row{
-  display: flex;
-}
-.col-6{
-    grid-column-start: 1;grid-column-end: -1; padding-bottom: 1rem;margin-bottom: auto;border-bottom: 1px solid rgb(197, 192, 192);margin-left: 20px;
-    padding-top: 50px;
-}
-.col-6 img{
-    width: 150px;
-    width: 150px;
-}
+   .row{
+       box-sizing: border-box;
+
+   }
+    .col-lg-4 {
+        border-bottom:  1px solid rgb(201, 200, 189);
+        margin-top: 10px;
+        
+    }
  .nav {
 grid-template-columns: 100%;max-width: 100%;margin: 0 16px;margin-top: 48px;position: relative; display: flex;
-
+align-items: center;
 }
 .navbar h5 a{
     margin-left: 0;
 }
+.tit img{
+    display: none;
+}
+.col img{
+    width: 150px;
+    height: 150px;
+    float:right;
+}
+
 }
 
