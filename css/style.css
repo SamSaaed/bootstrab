@@ -211,8 +211,9 @@ align-items: center;
 }
 .col img{
     width: 150px;
-    height: 150px;
+    height: 120px;
     float:right;
+    padding-top: 30px;
 }
 
 }
