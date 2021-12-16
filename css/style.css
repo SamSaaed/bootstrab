@@ -76,15 +76,23 @@ h4{
 }
 
 .row  a {
-color: black;
+color: rgb(37, 37, 37);
+font-weight: bold;
 }
 .row  a:hover{
     color: rgb(63, 63, 214);
     text-decoration: none;
 }
+.row .col-sm a{
+    font-size: 13px;
+}
 .row  h1{
     font-size: 18px;
     margin-right: 160px;
+}
+.row p{
+    color: rgb(122, 120, 120);
+    font-size: 13px;
 }
 .gray-dark{
     border-left: 1px solid rgb(201, 200, 189);
